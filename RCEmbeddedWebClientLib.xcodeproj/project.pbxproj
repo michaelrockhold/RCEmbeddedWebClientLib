@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2115C511FA497D00D8BDF2 /* BaseLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2115BF11FA497D00D8BDF2 /* BaseLoginButton.m */; };
+		4C2115C611FA497D00D8BDF2 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2115C011FA497D00D8BDF2 /* NSData+Base64.m */; };
+		4C2115C711FA497D00D8BDF2 /* NSData+ResponseDecoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2115C111FA497D00D8BDF2 /* NSData+ResponseDecoding.m */; };
+		4C2115C811FA497D00D8BDF2 /* NSString+ResponseDecoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2115C211FA497D00D8BDF2 /* NSString+ResponseDecoding.m */; };
+		4C2115C911FA497D00D8BDF2 /* RCHTTPBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2115C311FA497D00D8BDF2 /* RCHTTPBody.m */; };
+		4C2115CA11FA497D00D8BDF2 /* RCWebDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2115C411FA497D00D8BDF2 /* RCWebDialogViewController.m */; };
+		4C2115D711FA4A5C00D8BDF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2115D611FA4A5C00D8BDF2 /* UIKit.framework */; };
+		4C21172E11FA54AA00D8BDF2 /* BaseLoginButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C21172811FA54AA00D8BDF2 /* BaseLoginButton.h */; };
+		4C21172F11FA54AA00D8BDF2 /* NSData+Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C21172911FA54AA00D8BDF2 /* NSData+Base64.h */; };
+		4C21173011FA54AA00D8BDF2 /* NSData+ResponseDecoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C21172A11FA54AA00D8BDF2 /* NSData+ResponseDecoding.h */; };
+		4C21173111FA54AA00D8BDF2 /* NSString+ResponseDecoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C21172B11FA54AA00D8BDF2 /* NSString+ResponseDecoding.h */; };
+		4C21173211FA54AA00D8BDF2 /* RCHTTPBody.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C21172C11FA54AA00D8BDF2 /* RCHTTPBody.h */; };
+		4C21173311FA54AA00D8BDF2 /* RCWebDialogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C21172D11FA54AA00D8BDF2 /* RCWebDialogViewController.h */; };
+		AA747D9F0F9514B9006C5449 /* RCEmbeddedWebClientLib_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* RCEmbeddedWebClientLib_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C2115BF11FA497D00D8BDF2 /* BaseLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseLoginButton.m; path = src/BaseLoginButton.m; sourceTree = "<group>"; };
+		4C2115C011FA497D00D8BDF2 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "src/NSData+Base64.m"; sourceTree = "<group>"; };
+		4C2115C111FA497D00D8BDF2 /* NSData+ResponseDecoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+ResponseDecoding.m"; path = "src/NSData+ResponseDecoding.m"; sourceTree = "<group>"; };
+		4C2115C211FA497D00D8BDF2 /* NSString+ResponseDecoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ResponseDecoding.m"; path = "src/NSString+ResponseDecoding.m"; sourceTree = "<group>"; };
+		4C2115C311FA497D00D8BDF2 /* RCHTTPBody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCHTTPBody.m; path = src/RCHTTPBody.m; sourceTree = "<group>"; };
+		4C2115C411FA497D00D8BDF2 /* RCWebDialogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCWebDialogViewController.m; path = src/RCWebDialogViewController.m; sourceTree = "<group>"; };
+		4C2115D611FA4A5C00D8BDF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C21172811FA54AA00D8BDF2 /* BaseLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseLoginButton.h; sourceTree = "<group>"; };
+		4C21172911FA54AA00D8BDF2 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		4C21172A11FA54AA00D8BDF2 /* NSData+ResponseDecoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ResponseDecoding.h"; sourceTree = "<group>"; };
+		4C21172B11FA54AA00D8BDF2 /* NSString+ResponseDecoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ResponseDecoding.h"; sourceTree = "<group>"; };
+		4C21172C11FA54AA00D8BDF2 /* RCHTTPBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCHTTPBody.h; sourceTree = "<group>"; };
+		4C21172D11FA54AA00D8BDF2 /* RCWebDialogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWebDialogViewController.h; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* RCEmbeddedWebClientLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCEmbeddedWebClientLib_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libRCEmbeddedWebClientLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCEmbeddedWebClientLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				4C2115D711FA4A5C00D8BDF2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libRCEmbeddedWebClientLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* RCEmbeddedWebClientLib */ = {
+			isa = PBXGroup;
+			children = (
+				32C88DFF0371C24200C91783 /* Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = RCEmbeddedWebClientLib;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				4C2115D611FA4A5C00D8BDF2 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4C21172811FA54AA00D8BDF2 /* BaseLoginButton.h */,
+				4C21172911FA54AA00D8BDF2 /* NSData+Base64.h */,
+				4C21172A11FA54AA00D8BDF2 /* NSData+ResponseDecoding.h */,
+				4C21172B11FA54AA00D8BDF2 /* NSString+ResponseDecoding.h */,
+				4C21172C11FA54AA00D8BDF2 /* RCHTTPBody.h */,
+				4C21172D11FA54AA00D8BDF2 /* RCWebDialogViewController.h */,
+				4C2115BF11FA497D00D8BDF2 /* BaseLoginButton.m */,
+				4C2115C011FA497D00D8BDF2 /* NSData+Base64.m */,
+				4C2115C111FA497D00D8BDF2 /* NSData+ResponseDecoding.m */,
+				4C2115C211FA497D00D8BDF2 /* NSString+ResponseDecoding.m */,
+				4C2115C311FA497D00D8BDF2 /* RCHTTPBody.m */,
+				4C2115C411FA497D00D8BDF2 /* RCWebDialogViewController.m */,
+				AA747D9E0F9514B9006C5449 /* RCEmbeddedWebClientLib_Prefix.pch */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* RCEmbeddedWebClientLib_Prefix.pch in Headers */,
+				4C21172E11FA54AA00D8BDF2 /* BaseLoginButton.h in Headers */,
+				4C21172F11FA54AA00D8BDF2 /* NSData+Base64.h in Headers */,
+				4C21173011FA54AA00D8BDF2 /* NSData+ResponseDecoding.h in Headers */,
+				4C21173111FA54AA00D8BDF2 /* NSString+ResponseDecoding.h in Headers */,
+				4C21173211FA54AA00D8BDF2 /* RCHTTPBody.h in Headers */,
+				4C21173311FA54AA00D8BDF2 /* RCWebDialogViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* RCEmbeddedWebClientLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "RCEmbeddedWebClientLib" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCEmbeddedWebClientLib;
+			productName = RCEmbeddedWebClientLib;
+			productReference = D2AAC07E0554694100DB518D /* libRCEmbeddedWebClientLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "RCEmbeddedWebClientLib" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* RCEmbeddedWebClientLib */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* RCEmbeddedWebClientLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2115C511FA497D00D8BDF2 /* BaseLoginButton.m in Sources */,
+				4C2115C611FA497D00D8BDF2 /* NSData+Base64.m in Sources */,
+				4C2115C711FA497D00D8BDF2 /* NSData+ResponseDecoding.m in Sources */,
+				4C2115C811FA497D00D8BDF2 /* NSString+ResponseDecoding.m in Sources */,
+				4C2115C911FA497D00D8BDF2 /* RCHTTPBody.m in Sources */,
+				4C2115CA11FA497D00D8BDF2 /* RCWebDialogViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/RCEmbeddedWebClientLib.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RCEmbeddedWebClientLib_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = RCEmbeddedWebClientLib;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/RCEmbeddedWebClientLib.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RCEmbeddedWebClientLib_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = RCEmbeddedWebClientLib;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+				SYMROOT = ../build;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+				SYMROOT = ../build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "RCEmbeddedWebClientLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "RCEmbeddedWebClientLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

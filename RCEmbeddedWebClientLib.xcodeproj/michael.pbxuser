@@ -1,0 +1,59 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Distribution;
+		activeTarget = D2AAC07D0554694100DB518D /* RCEmbeddedWebClientLib */;
+		addToTargets = (
+			D2AAC07D0554694100DB518D /* RCEmbeddedWebClientLib */,
+		);
+		codeSenseManager = 4C2115A411FA492400D8BDF2 /* Code sense */;
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 303527134;
+			PBXWorkspaceStateSaveDate = 303527134;
+		};
+		sourceControlManager = 4C2115A311FA492400D8BDF2 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4C2115A311FA492400D8BDF2 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4C2115A411FA492400D8BDF2 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4C2115BF11FA497D00D8BDF2 /* BaseLoginButton.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {822, 2226}}";
+			sepNavSelRange = "{2104, 0}";
+			sepNavVisRange = "{1766, 618}";
+			sepNavWindowFrame = "{{19, 0}, {1073, 778}}";
+		};
+	};
+	4C2115C111FA497D00D8BDF2 /* NSData+ResponseDecoding.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {893, 646}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 533}";
+			sepNavWindowFrame = "{{19, 0}, {952, 774}}";
+		};
+	};
+	4C2115C311FA497D00D8BDF2 /* RCHTTPBody.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {845, 1274}}";
+			sepNavSelRange = "{170, 0}";
+			sepNavVisRange = "{692, 1070}";
+			sepNavWindowFrame = "{{19, 0}, {727, 778}}";
+		};
+	};
+	D2AAC07D0554694100DB518D /* RCEmbeddedWebClientLib */ = {
+		activeExec = 0;
+	};
+}
